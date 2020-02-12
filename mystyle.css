@@ -21,23 +21,7 @@ body{
 	margin-right: auto;
 	letter-spacing: 7px;
 }
-.info{
-	text-align: justify;
-	color: black;
-	font-family: "Georgia", serif;
-	font-size: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
 
-.details{
-	text-align: center;
-	color: black;
-	font-family: "Georgia", serif;
-	font-size: 20px;
-	margin-right: auto;
-	margin-left: auto;
-}
 
 .dropdown-item{
 	color: lightgray;
@@ -54,4 +38,25 @@ body{
 	height: 100px;
 	font-size: 20px;
 	color: white;
+}
+
+@keyframes appear{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+
+#heading{
+	animation: appear 2s;
+}
+
+#cols{
+	animation: appear 3s;
+	animation-delay: 0.5s; 
+	animation-fill-mode: backwards;
 }

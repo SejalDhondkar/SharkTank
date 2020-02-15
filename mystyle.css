@@ -60,3 +60,36 @@ body{
 	animation-delay: 0.5s; 
 	animation-fill-mode: backwards;
 }
+
+
+.button {
+	border: 3px solid #21618C;
+	border-radius: 30px;
+	color: #21618C;
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+	width: 220px;
+}
+
+.button:hover{
+	background-color: #21618C;
+	color: white;
+	text-decoration: none;
+}
+
+.button:active{
+	background-color: #2874A6;
+	color: white;
+	text-decoration: none;
+}
+
+i{
+	margin: 0px 13px;
+}
+

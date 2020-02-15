@@ -32,10 +32,11 @@ body{
 	text-align: center;
 }
 
+
 .footer{
 	background-color: #1B2631 ;
 	text-align: center;
-	height: 100px;
+	height: 150px;
 	font-size: 20px;
 	color: white;
 }
@@ -91,5 +92,10 @@ body{
 
 i{
 	margin: 0px 13px;
+}
+
+.cprt{
+	color: #AEB6BF;
+	font-size: 13px;
 }
 
